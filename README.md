@@ -1,4 +1,4 @@
-#Deploy
+
 Link for deployed web: https://pokedex-ts-main.netlify.app
 
 # Getting Started with Create React App
