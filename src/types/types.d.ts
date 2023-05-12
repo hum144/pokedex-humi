@@ -2,6 +2,7 @@ export type Pokemon = {
     name: string;
     id: string;
     imgSrc: string;
+    imgMiniSrc: string;
 }
 export type PokemonDetails = {
     name: string;
