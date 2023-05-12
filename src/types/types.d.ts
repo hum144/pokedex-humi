@@ -2,6 +2,8 @@ export type Pokemon = {
     name: string;
     id: string;
     imgSrc: string;
+    imgMiniSrc: string;
+    imgArtSrc: string;
 }
 export type PokemonDetails = {
     name: string;
