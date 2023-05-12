@@ -20,6 +20,7 @@ export async function fetchPokemons(): Promise<Pokemon[]>{
         imgArtSrc: pokemon.sprites.large,
     }))
 
+
     const uniquePokemons = pokemons.filter(
         (pokemon: any, index: number) =>
         pokemons.findIndex((other:any) => other.id === pokemon.id) === index
