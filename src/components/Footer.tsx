@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./footer.module.css";
+//import TopButton from "../components/TopButton";
 ///assets
 import PokemonPic from '../assets/pikachu.png';
 import LocationPic from '../assets/pointer.png';
 import ItemsPic from '../assets/pokeball.png';
+import {TopButton} from '../components/TopButton';
+
 const Footer = () => {
     return (
         <footer className={styles.footer}>
@@ -25,6 +28,7 @@ const Footer = () => {
                 <path d="M8.354 4.646a.5.5 0 0 0-.708 0L1.646 10.293a.5.5 0 0 0 .708.708L8 6.707l5.646 5.646a.5.5 0 0 0 .708-.708L8.707 4.646a.5.5 0 0 0-.353-.146z"/>
                 </svg>
             </button>
+            <TopButton />
         </footer>
         
     );

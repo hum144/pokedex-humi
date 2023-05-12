@@ -55,6 +55,7 @@ const Pokemons = () => {
             </nav>
         </main>
         <Footer />
+        
         </>
     );
 };

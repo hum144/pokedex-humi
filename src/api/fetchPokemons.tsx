@@ -16,7 +16,7 @@ export async function fetchPokemons(): Promise<Pokemon[]>{
         id: pokemon.national_number,
         //imgSrc: `https://img.pokemondb.net/sprites/black-white/anim/normal/${formatPokemonName(pokemon.name.toLowerCase())}.gif`,
         imgSrc:`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${parseInt(pokemon.national_number)}.png`,
-        imgMiniSrc: pokemon.sprites.animated,
+        imgMiniSrc: pokemon.sprites.animated.replace(pokemon.name.toLowerCase(),formatPokemonName(pokemon.name.toLowerCase())),
         imgArtSrc: pokemon.sprites.large,
     }))
 

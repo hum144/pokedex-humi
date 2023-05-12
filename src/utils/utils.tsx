@@ -1,8 +1,8 @@
 export function formatPokemonName(name: string): string {
-    if(name.includes("mujer")){
-        return name.replace("mujer", "-f");
-    }else if(name.includes("hombre")){
-        return name.replace("hombre", "-m");
+    if(name.includes("♀")){
+        return name.replace("♀", "-f");
+    }else if(name.includes("♂")){
+        return name.replace("♂", "-m");
     } else if(name.includes(". ")){
         return name.replace(". ", "-");
     }else if(name.includes("farfetch'd")){
